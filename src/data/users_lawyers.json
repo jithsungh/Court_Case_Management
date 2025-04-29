@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": "lawyer1",
+    "name": "Robert Parker",
+    "email": "lawyer@example.com",
+    "password": "password",
+    "role": "lawyer",
+    "avatarUrl": "https://ui-avatars.com/api/?name=Robert+Parker&background=green",
+    "barId": "BAR12345",
+    "yearsOfExperience": "8",
+    "specialization": "corporate",
+    "licenseYear": "2015",
+    "casesHandled": 145,
+    "casesWon": 98,
+    "caseTypes": ["corporate", "civil", "real_estate"]
+  },
+  {
+    "id": "lawyer2",
+    "name": "Jennifer Lopez",
+    "email": "jennifer@example.com",
+    "password": "password",
+    "role": "lawyer",
+    "avatarUrl": "https://ui-avatars.com/api/?name=Jennifer+Lopez&background=red",
+    "barId": "BAR67890",
+    "yearsOfExperience": "15",
+    "specialization": "criminal",
+    "licenseYear": "2010",
+    "casesHandled": 215,
+    "casesWon": 165,
+    "caseTypes": ["criminal", "family"]
+  }
+]
