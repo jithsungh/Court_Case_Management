@@ -38,25 +38,26 @@ CourtWise Harmony is a modern web application designed to streamline legal case 
 The `src/` directory contains the core application code, organized as follows:
 
 src/
-├── App.css             # Global App-specific styles
-├── App.tsx             # Main application component, routing setup
-├── components/         # Reusable UI components (layout, auth, cases, dashboard, etc.)
-│   ├── ui/             # Shadcn UI components
-│   └── ...
-├── context/            # React Context providers (Auth, Data, Firebase)
-├── data/               # Static data, mock data (e.g., cases.json, users_*.json)
-├── firebase/           # Firebase configuration, services, components
-├── hooks/              # Custom React hooks
-├── index.css           # Global styles, Tailwind CSS setup
-├── integrations/       # Integrations with third-party services (e.g., Supabase)
-├── lib/                # Utility functions (e.g., cn for classnames)
-├── main.tsx            # Application entry point
-├── models/             # Data model definitions (likely JS files based on extension)
-├── pages/              # Page-level components corresponding to routes
-├── services/           # Business logic services (e.g., Notifications)
-├── types/              # TypeScript type definitions
-├── utils/              # General utility functions (date, validation, etc.)
-└── vite-env.d.ts       # Vite environment type definitions
+├── App.css              # Global App-specific styles
+├── App.tsx              # Main application component, routing setup
+├── components/          # Reusable UI components
+│   ├── ui/              # Shadcn UI components
+│   └── ...              # Other component folders (e.g., auth, layout, cases)
+├── context/             # React Context providers (Auth, Data, Firebase)
+├── data/                # Static and mock data (e.g., cases.json, users_*.json)
+├── firebase/            # Firebase configuration, services, and helpers
+├── hooks/               # Custom React hooks
+├── index.css            # Global styles and Tailwind CSS setup
+├── integrations/        # Integrations with third-party services (e.g., Supabase)
+├── lib/                 # Utility functions (e.g., `cn` for classnames)
+├── main.tsx             # Application entry point
+├── models/              # Data model definitions
+├── pages/               # Page-level components mapped to routes
+├── services/            # Business logic and core services (e.g., Notifications)
+├── types/               # TypeScript type definitions
+├── utils/               # General utilities (e.g., date formatting, validation)
+└── vite-env.d.ts        # Vite environment type definitions
+
 
 
 ## 🚀 Getting Started
