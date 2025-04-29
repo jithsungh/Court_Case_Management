@@ -6,13 +6,13 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDa1TC52hsEw-QpbNooInsTmFSJIjo3t-w",
-  authDomain: "courtcasemgmt.firebaseapp.com",
-  projectId: "courtcasemgmt",
-  storageBucket: "courtcasemgmt.firebasestorage.app",
-  messagingSenderId: "832609709260",
-  appId: "1:832609709260:web:717c3745da0f7beb626669",
-  measurementId: "G-7W376T40JQ"
+  apiKey: "Your API KEY",
+  authDomain: "Your Auth Domain",
+  projectId: "ur project ID",
+  storageBucket: "your Bucket Name",
+  messagingSenderId: "Your Sender ID",
+  appId: "your APP ID",
+  measurementId: "Your Measurement ID"
 };
 
 // Initialize Firebase
